@@ -18,19 +18,16 @@ This project applies NLP techniques to classify IMDB movie reviews as positive o
 
 
 ## 🤖 Models
-- Naive Bayes  
-- Logistic Regression  
-- SVM  
-- KNN  
-- Decision Tree  
-- Random Forest  
-- Gradient Boosting  
-- AdaBoost  
-- Extra Trees  
-- MLP  
-- XGBoost  
-- LightGBM  
-- Passive Aggressive  
+1 LinearSVC
+2 SGD Classifier
+3 Logistic Regression
+4 Passive Aggressive
+5 Bernoulli Naive Bayes
+6 Multinomial Naive Bayes
+7 Random Forest
+8 Gradient Boosting
+9 K-Nearest Neighbors
+10 Decision Tree
 
 ---
 
@@ -42,7 +39,7 @@ This project applies NLP techniques to classify IMDB movie reviews as positive o
 
 ## 🏆 Results
 - TF-IDF performed best  
-- Logistic Regression & SVM achieved highest accuracy  
+- LinearSVC, SGD Classifier, Logistic Regression achieved highest accuracy  
 - KNN & Decision Tree performed worst  
 <img width="1305" height="662" alt="Screenshot 2026-05-06 200743" src="https://github.com/user-attachments/assets/1815e6b5-a1cd-4a2c-b6b7-9d721450a070" />
 <img width="977" height="667" alt="Screenshot 2026-05-06 200917" src="https://github.com/user-attachments/assets/897ff31a-31cb-4443-abf8-4acb37778b8d" />
